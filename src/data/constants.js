@@ -129,11 +129,11 @@ export const skills = [
         image:
           "https://download.logo.wine/logo/Amazon_Web_Services/Amazon_Web_Services-Logo.wine.png",
       },
-      {
-        name: "Google Cloud",
-        image:
-          "https://static-00.iconduck.com/assets.00/google-cloud-platform-logo-icon-2048x1824-pg4wzspq.png",
-      },
+      // {
+      //   name: "Google Cloud",
+      //   image:
+      //     "https://static-00.iconduck.com/assets.00/google-cloud-platform-logo-icon-2048x1824-pg4wzspq.png",
+      // },
       {
         name: "Docker",
         image:
@@ -165,6 +165,10 @@ export const skills = [
       },
     ],
   },
+
+
+
+
   // {
   //   title: "Android",
   //   skills: [
@@ -253,16 +257,16 @@ export const skills = [
         image:
           "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Visual_Studio_Code_1.35_icon.svg/512px-Visual_Studio_Code_1.35_icon.svg.png?20210804221519",
       },
-      {
-        name: "Postman",
-        image:
-          "https://static-00.iconduck.com/assets.00/postman-icon-497x512-beb7sy75.png",
-      },
-      {
-        name: "Adobe XD",
-        image:
-          "https://camo.githubusercontent.com/c205ecbe12500177d102169d97bc1c17c545155fdf5ec78c08d54ac53e5b38c1/68747470733a2f2f63646e2e776f726c64766563746f726c6f676f2e636f6d2f6c6f676f732f61646f62652d78642e737667",
-      },
+      // {
+      //   name: "Postman",
+      //   image:
+      //     "https://static-00.iconduck.com/assets.00/postman-icon-497x512-beb7sy75.png",
+      // },
+      // {
+      //   name: "Adobe XD",
+      //   image:
+      //     "https://camo.githubusercontent.com/c205ecbe12500177d102169d97bc1c17c545155fdf5ec78c08d54ac53e5b38c1/68747470733a2f2f63646e2e776f726c64766563746f726c6f676f2e636f6d2f6c6f676f732f61646f62652d78642e737667",
+      // },
       {
         name: "Figma",
         image:
@@ -284,16 +288,18 @@ export const experiences = [
       "ReactJS",
       "Redux",
       "NodeJs",
+      "VueJs",
       "Material UI",
+      "NextJs",
       "HTML",
       "CSS",
       "JavaScript",
     ],
     doc: "https://firebasestorage.googleapis.com/v0/b/flexi-coding.appspot.com/o/Screenshot%20from%202024-01-25%2022-38-31.png?alt=media&token=2785903f-1a4e-41f5-afd2-6adcfe56d058",
   },
-  {
+  {  
     id: 1,
-    img: "https://firebasestorage.googleapis.com/v0/b/flexi-coding.appspot.com/o/flipr.jpeg?alt=media&token=1d72532a-45eb-4c1a-a81a-c9bed9fec543",
+    img: "https://firebasestorage.googleapis.com/v0/b/flexi-coding.appspot.com/o/neurobit.jpeg?alt=media&token=1cacbb7b-e5ea-4efb-9b3d-f5a31b9564ad",
     role: "Web Developer",
     company: "DTT",
     date: "July 2020 - April 2023",
@@ -314,9 +320,9 @@ export const experiences = [
   },
   {
     id: 2,
-    img: "https://firebasestorage.googleapis.com/v0/b/flexi-coding.appspot.com/o/Rudraksha.jpeg?alt=media&token=8f83f41e-d0a1-486f-9c7f-dd4cd1d09e8d",
+    img: "https://firebasestorage.googleapis.com/v0/b/flexi-coding.appspot.com/o/neurobit.jpeg?alt=media&token=1cacbb7b-e5ea-4efb-9b3d-f5a31b9564ad",
     role: "Web Developer",
-    company: "DTT",
+    company: "",
     date: "July 2020 - April 2023",
     desc: "Designed cloud and web solutions using React, Node.js and TypeScript for 3 platforms serving thousands of users.  Developed a powerful React widget library for retailer websites.  Built 10 + content management systems based on Kentico and SiteFinity CMS frameworks. And I collaborated with a team of 12 developers to prototype and design solutions based on requirements in an agile manner.",
     skills: [
@@ -331,27 +337,27 @@ export const experiences = [
     ],
     doc: "https://firebasestorage.googleapis.com/v0/b/buckoid-917cf.appspot.com/o/WhatsApp%20Image%202023-05-05%20at%2012.07.39%20AM.jpeg?alt=media&token=9f0e1648-568b-422d-bd0b-1f125f722245",
   },
-  {
-    id: 3,
-    img: "https://firebasestorage.googleapis.com/v0/b/flexi-coding.appspot.com/o/flipr.jpeg?alt=media&token=1d72532a-45eb-4c1a-a81a-c9bed9fec543",
-    role: "Web Developer",
-    company: "DTT",
-    date: "July 2020 - April 2023",
-    desc: "Designed cloud and web solutions using React, Node.js and TypeScript for 3 platforms serving thousands of users.  Developed a powerful React widget library for retailer websites.  Built 10 + content management systems based on Kentico and SiteFinity CMS frameworks. And I collaborated with a team of 12 developers to prototype and design solutions based on requirements in an agile manner.",
-    skills: [
-      "ReactJS",
-      "Redux",
-      "NodeJs",
-      "Material UI",
-      "HTML",
-      "CSS",
-      "JavaScript",
-      "Docker",
-      "AWS",
-      "MongoDB",
-    ],
-    doc: "https://firebasestorage.googleapis.com/v0/b/flexi-coding.appspot.com/o/1691181448873.jpeg?alt=media&token=ee85eb8f-7247-43cd-9a1d-ce9f58ea62a6",
-  },
+  // {
+  //   id: 3,
+  //   img: "https://firebasestorage.googleapis.com/v0/b/flexi-coding.appspot.com/o/flipr.jpeg?alt=media&token=1d72532a-45eb-4c1a-a81a-c9bed9fec543",
+  //   role: "Web Developer",
+  //   company: "DTT",
+  //   date: "July 2020 - April 2023",
+  //   desc: "Designed cloud and web solutions using React, Node.js and TypeScript for 3 platforms serving thousands of users.  Developed a powerful React widget library for retailer websites.  Built 10 + content management systems based on Kentico and SiteFinity CMS frameworks. And I collaborated with a team of 12 developers to prototype and design solutions based on requirements in an agile manner.",
+  //   skills: [
+  //     "ReactJS",
+  //     "Redux",
+  //     "NodeJs",
+  //     "Material UI",
+  //     "HTML",
+  //     "CSS",
+  //     "JavaScript",
+  //     "Docker",
+  //     "AWS",
+  //     "MongoDB",
+  //   ],
+  //   doc: "https://firebasestorage.googleapis.com/v0/b/flexi-coding.appspot.com/o/1691181448873.jpeg?alt=media&token=ee85eb8f-7247-43cd-9a1d-ce9f58ea62a6",
+  // },
   // {
   //   id: 4,
   //   img: "https://firebasestorage.googleapis.com/v0/b/flexi-coding.appspot.com/o/gdsc.jpeg?alt=media&token=c162329c-efaa-4be8-a173-8d3f4c48ea70",
@@ -380,10 +386,10 @@ export const experiences = [
 export const education = [
   {
     id: 0,
-    img: "https://firebasestorage.googleapis.com/v0/b/flexi-coding.appspot.com/o/Kiit.jpeg?alt=media&token=3839d520-c59d-4341-ad8f-0980c98de4dd",
+    img: "https://firebasestorage.googleapis.com/v0/b/flexi-coding.appspot.com/o/methodist.png?alt=media&token=018a1b18-e2dd-4f34-8855-cff1b6b69fd3",
     school: "Erasmus University Rotterdam",
     date: "Oct 2012 - Sep 2016",
-    grade: "8.41 CGPA",
+    grade: "Bachelor",
     desc: "I am currently pursuing a Bachelor's degree in Computer Science and Engineering at Erasmus University Rotterdam. I have completed 4 semesters and have a CGPA of 8.71. I have taken courses in Data Structures, Algorithms, Object-Oriented Programming, Database Management Systems, Operating Systems, and Computer Networks, among others. I am also a member of the Google Developers Student Club (GDSC) at KIIT, where I am learning and working on exciting projects with a team of talented developers.",
     degree: "Bachelor of Computer Science and Engineering",
   },
@@ -394,7 +400,7 @@ export const education = [
     date: "Apr 2016 - Apr 2018",
     grade: "88.2%",
     desc: "I completed my class 12 high school education at Methodist School, Dankuni, where I studied Science with Computer Science.",
-    degree: "ISC(XII), Master of Computer Science",
+    degree: " Master of Computer Science",
   },
   // {
   //   id: 2,
